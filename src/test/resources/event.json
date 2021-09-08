@@ -1,0 +1,9 @@
+{
+  "eventId": "30eaf217-d053-40bc-90c9-7b41cb115775",
+  "eventTime": "2021-09-07T13:35:52.229Z",
+  "eventType": "SAMPLE",
+  "event": {
+    "eventSource": "TEST",
+    "eventTraceId": "5a5aa0b2-fa28-422f-a89f-29988d4e1764",
+  }
+}
