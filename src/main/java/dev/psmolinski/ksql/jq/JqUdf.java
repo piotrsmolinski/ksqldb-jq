@@ -2,6 +2,7 @@ package dev.psmolinski.ksql.jq;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import io.confluent.ksql.function.udf.Udf;
 import io.confluent.ksql.function.udf.UdfDescription;
 import net.thisptr.jackson.jq.JsonQuery;
 import net.thisptr.jackson.jq.Scope;
@@ -16,6 +17,7 @@ import java.util.stream.Collectors;
 )
 public class JqUdf {
 
+  @Udf(description = "Execute jq query and return result as list of strings")
   public List<String> query(String query, String json) {
 
     try {
