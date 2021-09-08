@@ -45,10 +45,10 @@ public class JqUdf {
               .map(JsonNode::asText)
               .collect(Collectors.toList());
 
+    } catch (RuntimeException e) {
+      throw e;
     } catch (Exception e) {
-
-      return Collections.emptyList();
-
+      throw new RuntimeException(e);
     }
 
   }
