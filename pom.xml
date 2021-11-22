@@ -5,7 +5,7 @@
 
     <groupId>dev.psmolinski.ksql</groupId>
     <artifactId>ksqldb-jq</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.2</version>
     <packaging>jar</packaging>
 
     <name>ksqlDB UDF for JSON processing with jq</name>
@@ -14,7 +14,7 @@
         <connection>scm:git:git://github.com/piotrsmolinski/ksqldb-jq.git</connection>
         <developerConnection>scm:git:git@github.com:piotrsmolinski/ksqldb-jq.git</developerConnection>
         <url>https://github.com/piotrsmolinski/ksqldb-jq</url>
-        <tag>HEAD</tag>
+        <tag>v0.0.2</tag>
     </scm>
 
     <properties>
